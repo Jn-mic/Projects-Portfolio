@@ -1,7 +1,7 @@
 # Project-portflio/Awwards.
 This application similar to Awards; It allow a user to post a project he/she has drafted and prompt a review by his/her peers. A project can be rated based on 3 different criteria Design, Usability and Content. Reviews are scalable from 1 to 10 couple with average score. As a user, you will be able to: -View posted projects and their details 
 ## Author
->  Jack Owuor.
+>  Jack Otieno Owuor.
 
 ## Installations
 
