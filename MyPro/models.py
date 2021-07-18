@@ -60,3 +60,8 @@ class Projects(models.Model):
     def search_projects(cls, search_term):
         projects = cls.objects.filter(project_title__icontains=search_term)
         return projects
+
+    @classmethod
+    def get_by_author(cls, author):
+        projects = cls.objects.filter(author=author)
+        return projects
