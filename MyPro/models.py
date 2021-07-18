@@ -44,3 +44,6 @@ class Projects(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     link = models.URLField()
     country = CountryField(blank_label='(select country)', default='USA')
+
+    def save_project(self):
+        self.save()
