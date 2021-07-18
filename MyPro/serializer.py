@@ -1,8 +1,13 @@
-from rest_framework.permissions import SAFE_METHODS, BasePermission
-
-class IsAdminOrReadOnly(BasePermission):
-    def has_permission(self, request, view):
-        if request.method in SAFE_METHODS:
-            return True
-        else:
-            return request.user.is_staff
+from rest_framework import serializers
+from .models import *
+        
+class ProjectsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Projects
+        fields = ('id', 'project_title', 'project_image', 'project_description', 'pub_date', 'author', 'author_profile', 'link','country')
+        
+        
+class ProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = ('id', 'project_title', 'project_image', 'project_description', 'pub_date', 'author', 'author_profile', 'link','country')
