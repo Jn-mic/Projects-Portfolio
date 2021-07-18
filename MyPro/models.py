@@ -23,3 +23,7 @@ class Profile(models.Model):
 
     def delete_profile(self):
         self.delete()
+
+    class Meta:
+        verbose_name = 'Profile'
+        verbose_name_plural = 'Profiles'
