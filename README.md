@@ -42,6 +42,8 @@ After extracting the files,
 * Bootstrap4
 * Git
 * heroku
+* django_registration
+
 ## User Stories
 
 ## BDD(Behaviour Driven Development)
