@@ -36,3 +36,11 @@ def create_user_profile(sender, instance, created, **kwargs):
 def save_user_profile(sender, instance, **kwargs):
         instance.profile.save()
 
+class Projects(models.Model):
+    project_title = models.CharField(max_length=255)
+    project_image = CloudinaryField('images')
+    project_description = models.TextField()
+    pub_date = models.DateTimeField(auto_now_add=True)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    link = models.URLField()
+    country = CountryField(blank_label='(select country)', default='USA')
