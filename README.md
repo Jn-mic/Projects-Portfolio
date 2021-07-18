@@ -43,6 +43,7 @@ After extracting the files,
 * Git
 * heroku
 * django_registration
+* 
 
 ## User Stories
 
