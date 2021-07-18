@@ -3,6 +3,8 @@ from django.db import models
 # Create your models here.
 from django.db import models
 import datetime as dt
+from django.core.exceptions import ObjectDoesNotExist
+from django.http import HttpResponse, HttpResponseNotFound, Http404
 from django.contrib.auth.models import User
 from tinymce.models import HTMLField
 from django_countries.fields import CountryField
@@ -65,3 +67,15 @@ class Projects(models.Model):
     def get_by_author(cls, author):
         projects = cls.objects.filter(author=author)
         return projects
+
+    @classmethod
+    def get_project(request, id):
+        try:
+            project = Projects.objects.get(pk = id)
+            return project
+        except ObjectDoesNotExist:
+            raise Http404()
+    
+    def __str__(self):
+        return self.project_title
+        
