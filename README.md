@@ -10,8 +10,7 @@ The following command installs all the application requirements
 
 ## Setup
 Run 
-``git clone https://github.com/Jn-mic/
-Projects-Portfolio.git``
+``git clone https://github.com/Jn-mic/Projects-Portfolio.git``
 
 or download the zip file from github.
 
@@ -27,10 +26,7 @@ After extracting the files,
 >``source venv/bin/activate.``
 
 4. Running the application
->``python3 manage.py runserver 
-
-``
-
+>``python3 manage.py runserver ``
 5. Running tests
 
  > ``python3 manage.py test.``
@@ -46,9 +42,9 @@ After extracting the files,
 ## User Stories
 
 ## BDD(Behaviour Driven Development)
-This application similar to Awards; It allow a user to post a project he/she has drafted and prompt a review by his/her peers. A project can be rated based on 3 different criteria Design, Usability and Content. Reviews are scalable from 1 to 10 couple with average score. As a user, you will be able to: -View posted projects and their details. 
+This application similar to Awards; It allow a user to post a project he/she has drafted and prompt a review by his/her peers. A project can be rated based on 3 different criteria Design, Usability and Content. Reviews are scalable from 1 to 10 couple with average score. As a user, you will be able to:-View posted projects and their details. 
 
-> MIT License &copy; 2021 Jack  Owuor.
+> MIT License & copy ; 2021 Jack Owuor.
 
 ## Collaborate
 To collaborate, reach me on:[jackotienokey@gmail.com]()
