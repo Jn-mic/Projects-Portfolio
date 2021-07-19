@@ -1,7 +1,7 @@
 # Project-portflio/Awwards.
 This application similar to Awards; It allow a user to post a project he/she has drafted and prompt a review by his/her peers. A project can be rated based on 3 different criteria Design, Usability and Content. Reviews are scalable from 1 to 10 couple with average score. As a user, you will be able to: -View posted projects and their details 
 ## Author
->  Jack Owuor.
+>  Jack Otieno Owuor.
 
 ## Installations
 
@@ -42,13 +42,11 @@ After extracting the files,
 * Bootstrap4
 * Git
 * heroku
-* django_registration
-* 
-
+* Django
 ## User Stories
 
 ## BDD(Behaviour Driven Development)
-This application similar to Awards; It allow a user to post a project he/she has drafted and prompt a review by his/her peers. A project can be rated based on 3 different criteria Design, Usability and Content. Reviews are scalable from 1 to 10 couple with average score. As a user, you will be able to: -View posted projects and their details 
+This application similar to Awards; It allow a user to post a project he/she has drafted and prompt a review by his/her peers. A project can be rated based on 3 different criteria Design, Usability and Content. Reviews are scalable from 1 to 10 couple with average score. As a user, you will be able to: -View posted projects and their details. 
 
 > MIT License &copy; 2021 Jack  Owuor.
 
