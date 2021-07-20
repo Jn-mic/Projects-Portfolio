@@ -31,6 +31,16 @@ After extracting the files,
 
  > ``python3 manage.py test.``
 
+## Deployment to Heroku
+* $ git init
+* $ git add -A
+* $ git commit -m "Initial commit"
+
+* $ heroku create
+* $ git push heroku master
+
+* $ heroku run python manage.py migrate
+
 ## Technologies used
 * Python3.8
 * Html5
